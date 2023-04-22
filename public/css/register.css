@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat&display=swap');
+
+body {
+    background-color: #000000;
+}
+
+.card{
+
+    background-color: #000000;
+    color:#ffffff;
+}
+.login-header{
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+h1{
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+}
+h4, p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.login{
+
+    background: url("../img/login-bg.png") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.log{
+
+    font-family: 'Montserrat', sans-serif;
+    color:#FFA31A;
+
+}
+.f{
+
+    color:#ffffff;
+
+}
+span{
+
+    color: #FFA31A;
+
+}
+.btn-log{
+    --bs-btn-color: #6c757d;
+    --bs-btn-border-color: #6c757d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #6c757d;
+    --bs-btn-hover-border-color: #6c757d;
+    --bs-btn-focus-shadow-rgb: 108, 117, 125;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6c757d;
+    --bs-btn-active-border-color: #6c757d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #6c757d;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #6c757d;
+    --bs-gradient: none;
+}
+.btn-outline-lig {
+    --bs-btn-color: #FFA31A;
+    --bs-btn-active: #fff;
+}
